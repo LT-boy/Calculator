@@ -1,0 +1,25 @@
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 200px;
+}
+
+.calculator {
+	width: 400px;
+	background-color: grey;
+	border: 2px solid;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.buttons-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 5px;
+}
+
+.btn {
+	padding: 20px;
+	border-radius: 5px;
+}
