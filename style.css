@@ -13,6 +13,25 @@
 	border-radius: 10px;
 }
 
+.screen {
+	padding: 10px 20px;
+	border: 2px solid;
+	margin-bottom: 10px;
+	background-color: rgb(239, 239, 239);
+	text-align: right;
+	border-radius: 5px;
+}
+
+.screen-prev {
+	min-height: 32px;
+	font-size: 20px;
+}
+
+.screen-curr {
+	min-height: 64px;
+	font-size: 50px;
+}
+
 .buttons-grid {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
